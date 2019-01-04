@@ -1,3 +1,17 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+body {
+  font-family: "Courgette", cursive; }
 
+header {
+  background-image: url("/public/images/banner1.jpg");
+  height: 80rem;
+  background-size: 100%; }
+
+.opacity {
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
