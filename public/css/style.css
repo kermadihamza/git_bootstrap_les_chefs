@@ -9556,7 +9556,7 @@ nav {
 }
 
 .hovercol .col-3:hover {
-  background-color: red;
+  background-color: rgba(234, 4, 4, 0.5);
 }
 
 .opacity {
@@ -9686,7 +9686,7 @@ ul li {
 }
 
 ul li:hover {
-  color: red;
+  color: rgba(234, 4, 4, 0.5);
 }
 
 ul li i {
