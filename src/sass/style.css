@@ -1,12 +1,20 @@
 @import url(c:\Users\Hamza\coding-school-6\siteduchef\node_modules\bootstrap\dist\css\bootstrap.css);
 @import url(c:\Users\Hamza\coding-school-6\siteduchef\node_modules\@fortawesome\fontawesome-free\css\all.min.css);
+@font-face {
+  font-family: courgette;
+  src: url("/public/fonts/Courgette-Regular.ttf");
+}
+
 body {
-  font-family: 'Courgette', cursive;
   margin: 0;
 }
 
+h1 {
+  font-family: 'courgette';
+}
+
 header {
-  background-image: url("/public/images/banner1.jpg");
+  background-image: url("../../public/images/banner1.jpg");
   height: 50rem;
   background-size: 100%;
   width: 100%;
@@ -14,6 +22,10 @@ header {
 
 nav {
   font-size: 0.7rem;
+}
+
+.hovercol:hover {
+  background-color: red;
 }
 
 .opacity {
@@ -57,8 +69,409 @@ nav {
 
 .bottom {
   background-color: #2E2E2E;
-  background-image: url("/public/images/bottom_decoration_img.png");
+  background-image: url("../../public/images/bottom_decoration_img.png");
   height: 10px;
   width: 100%;
+}
+
+.section1 {
+  background-image: url("../../public/images/main_bg.jpg");
+  height: 112rem;
+  width: 100%;
+  padding: 7%;
+}
+
+.section1 .container {
+  border: solid 1px #CDCDCD;
+  height: 100rem;
+  padding-top: 5%;
+  position: relative;
+}
+
+.section1 .box-top1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section1 .box-top2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ourstory {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+#line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin-top: 6%;
+  padding-left: 0;
+  width: 15%;
+}
+
+ul li {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20%;
+}
+
+ul li:hover {
+  color: red;
+}
+
+ul li i {
+  margin-left: 0;
+}
+
+ul li p {
+  font-size: 25px;
+  padding-top: 1rem;
+}
+
+ul li .p1 {
+  margin-left: -20px;
+}
+
+ul li .p2 {
+  margin-left: -6px;
+}
+
+ul li .p3 {
+  margin-left: -7px;
+}
+
+ul li .p4 {
+  margin-left: -10px;
+}
+
+.rowalign .col-6 {
+  margin-top: 7%;
+}
+
+.borderred {
+  padding-bottom: 6%;
+}
+
+.col-6 {
+  max-width: 48%;
+  padding-left: 3%;
+}
+
+.media-body h3 {
+  font-size: 17px;
+}
+
+.media img {
+  border-radius: 50%;
+  border: solid 4px #E9E9E9;
+  width: 70%;
+}
+
+.media-body {
+  margin-left: -10%;
+}
+
+.media-body {
+  padding-top: 7%;
+}
+
+.media-body span {
+  background-color: #EEEEEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+  margin-right: -10%;
+  margin-top: -20%;
+}
+
+
+.box-bottom1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.box-bottom2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chef {
+  background-image: url("../../public/images/team_background.jpg");
+  height: 50rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.col-3 img {
+  width: 70%;
+}
+
+.book {
+  background-image: url("../../public/images/main_bg.jpg");
+  height: 98rem;
+  width: 100%;
+}
+
+.book #containerbook {
+  border: solid 1px #CDCDCD;
+  height: 90rem;
+  padding-top: 5%;
+  position: relative;
+  background-color: white;
+}
+
+.book .boxgrey1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.book .boxgrey2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.book .bgimg {
+  background-image: url("../../public/images/book_table_bg.jpg");
+  background-repeat: no repeat;
+  height: 40%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 6%;
+  border-radius: 30px;
+}
+
+.bgimg h3 {
+  font-size: 20px;
+}
+
+.book .container #row .col-6 {
+  padding-bottom: 3%;
+  max-width: 45%;
+}
+
+.book .container #row .col-6 input {
+  height: 3rem;
+  border-radius: 15px;
+}
+
+.book .container #row .col-6 select {
+  height: 3rem;
+  border-radius: 15px;
+}
+
+.book .btnbook {
+  width: 30%;
+  height: 3.5rem;
+  margin-left: 35%;
+}
+
+#rowblog {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.blogimg1 {
+  border-radius: 20px;
+  border: 4px solid #b7b7b7;
+  width: 80%;
+  margin-left: 40%;
+}
+
+.blogimg2 {
+  border-radius: 20px;
+  border: 4px solid #b7b7b7;
+  width: 80%;
+  margin-left: 22%;
+}
+
+.btnsalad {
+  width: 65%;
+  height: 15%;
+  border-radius: 7px;
+  margin-left: 48%;
+  margin-top: -10%;
+}
+
+.btnchicken {
+  width: 65%;
+  height: 15%;
+  border-radius: 7px;
+  margin-left: 30%;
+  margin-top: -10%;
+}
+
+.h4-1 {
+  margin-left: 27%;
+}
+
+.h4-2 {
+  margin-left: -9%;
+}
+
+.p-1 {
+  width: 80%;
+  margin-left: 47%;
+}
+
+.p-2 {
+  width: 80%;
+  margin-left: 28%;
+}
+
+.btnknow {
+  width: 15%;
+  height: 2.5rem;
+  margin-left: 43%;
+}
+
+.boxbottomgrey1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.boxbottomgrey2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.client {
+  background-image: url("../../public/images/testimonials_background.jpg");
+  background-size: 280%;
+  height: 30rem;
+  width: 100%;
+}
+
+.colclient {
+  height: 10rem;
+}
+
+.imgclient1 {
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 90%;
+}
+
+.imgclient2 {
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 90%;
+}
+
+.contact {
+  background-image: url("../../public/images/main_bg.jpg");
+  width: 100%;
+}
+
+#containerred {
+  margin-top: 7%;
+  width: 35%;
+  border-radius: 3%;
+}
+
+.topfooter {
+  background-color: black;
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  height: 10px;
+  width: 100%;
+}
+
+footer {
+  background-image: url("../../public/images/footer_background.jpg");
+  background-repeat: no repeat;
+  width: 100%;
+  height: 20rem;
+}
+
+.rowfooter img {
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.btn1 {
+  width: 30%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn2 {
+  width: 40%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn3 {
+  width: 20%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn4 {
+  width: 30%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn5 {
+  width: 18%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn6 {
+  width: 25%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn7 {
+  width: 25%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.btn8 {
+  width: 17%;
+  height: 15%;
+  font-size: 13px;
+  border: solid 2px;
+}
+
+.final {
+  background-color: #DC3545;
+  height: 6rem;
 }
 /*# sourceMappingURL=style.css.map */
